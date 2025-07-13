@@ -44,8 +44,25 @@ export default function Login() {
 }
 
 const styles = StyleSheet.create({
-  container: { padding: 20, flex: 1, justifyContent: "center" },
-  heading: { fontSize: 24, marginBottom: 20, textAlign: "center" },
-  input: { borderWidth: 1, marginBottom: 15, padding: 10, borderRadius: 5 },
-  link: { color: "#007bff", marginTop: 20, textAlign: "center" },
+  container: {
+    padding: 20, 
+    flex: 1, 
+    justifyContent: "center" 
+  },
+  heading: { 
+    fontSize: 24,
+    marginBottom: 20,
+    textAlign: "center" 
+  },
+  input: { 
+    borderWidth: 1, 
+    marginBottom: 15, 
+    padding: 10, 
+    borderRadius: 5 
+  },
+  link: { 
+    color: "#007bff", 
+    marginTop: 20, 
+    textAlign: "center" 
+  },
 });
